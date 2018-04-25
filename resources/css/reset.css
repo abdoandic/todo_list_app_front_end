@@ -27,3 +27,34 @@ body {
 ol,ul {
   list-style: none;
 }
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #ccc;
+}
+
+blockquote,q {
+  quotes: none;
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+html,input,select,textarea,button,a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
